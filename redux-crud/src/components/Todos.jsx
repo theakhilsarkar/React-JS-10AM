@@ -1,6 +1,6 @@
 import React, { use } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { add, remove } from "../features/todoSlice";
+import { add, remove, update } from "../features/todoSlice";
 
 export default function Todos() {
   const todos = useSelector((state) => state.todo.todos);
@@ -13,6 +13,19 @@ export default function Todos() {
           <p key={index}>
             {todo.title} - {todo.status ? "Completed" : "In Completed"}
             <button onClick={() => dispatch(remove(index))}>X</button>
+            <button
+              onClick={() =>
+                dispatch(
+                  update({
+                    index: index,
+                    title: "updated title",
+                    status: true,
+                  })
+                )
+              }
+            >
+              Edit
+            </button>
           </p>
         );
       })}
