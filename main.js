@@ -62,5 +62,30 @@
 // 23. Book Management - Priya
 // 24. Classroom - Amritpal
 
-const luck = parseInt(Math.random() * 24);
-console.log(luck);
+// const luck = parseInt(Math.random() * 24);
+// console.log(luck);
+
+// Static UI
+// variable
+// state = data used in the UI.
+// can change in  Ui
+
+// useState hook - react
+// state, setState
+// const [count,setCount] = useState(0);
+
+// useContext - react
+// state 
+
+
+
+
+
+
+
+
+
+
+
+
+
