@@ -19,3 +19,19 @@ function CounterProvider({ children }) {
 }
 
 export default CounterProvider;
+
+// what is price of your tongue.
+// commitment value
+
+// monday - break - 
+
+// Firebase - Google Product
+// online cloud store - 5 GB - texts
+// auth - google
+
+// make your own backend
+// server - charges - 100
+
+// API
+// client -request=> API =>server
+// server -response=> client
