@@ -1,0 +1,340 @@
+{
+  "books": [
+    {
+      "id": "12",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "isAvailable": true,
+      "isbn": [
+        "134",
+        "135",
+        "136"
+      ],
+      "rent": 8,
+      "gener": "Gothic Fiction",
+      "cover": "img path"
+    },
+    {
+      "id": "14",
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "isAvailable": false,
+      "isbn": [
+        "140",
+        "141",
+        "142"
+      ],
+      "rent": 15,
+      "gener": "Thriller",
+      "cover": "img path"
+    },
+    {
+      "id": "15",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "isAvailable": true,
+      "isbn": [
+        "143",
+        "144",
+        "145"
+      ],
+      "rent": 12,
+      "gener": "Fantasy",
+      "cover": "img path"
+    },
+    {
+      "id": "16",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "isAvailable": true,
+      "isbn": [
+        "146",
+        "147",
+        "148"
+      ],
+      "rent": 11,
+      "gener": "Young Adult Fiction",
+      "cover": "img path"
+    },
+    {
+      "id": "17",
+      "title": "A Song of Ice and Fire: A Game of Thrones",
+      "author": "George R.R. Martin",
+      "isAvailable": true,
+      "isbn": [
+        "149",
+        "150",
+        "151"
+      ],
+      "rent": 19,
+      "gener": "Epic Fantasy",
+      "cover": "img path"
+    },
+    {
+      "id": "18",
+      "title": "The Shining",
+      "author": "Stephen King",
+      "isAvailable": false,
+      "isbn": [
+        "152",
+        "153",
+        "154"
+      ],
+      "rent": 14,
+      "gener": "Horror",
+      "cover": "img path"
+    },
+    {
+      "id": "19",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "isAvailable": true,
+      "isbn": [
+        "155",
+        "156",
+        "157"
+      ],
+      "rent": 13,
+      "gener": "Memoir",
+      "cover": "img path"
+    },
+    {
+      "id": "20",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "isAvailable": true,
+      "isbn": [
+        "158",
+        "159",
+        "160"
+      ],
+      "rent": 16,
+      "gener": "Non-Fiction",
+      "cover": "img path"
+    },
+    {
+      "id": "21",
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "isAvailable": false,
+      "isbn": [
+        "161",
+        "162",
+        "163"
+      ],
+      "rent": 15,
+      "gener": "Mystery",
+      "cover": "img path"
+    },
+    {
+      "id": "22",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "isAvailable": true,
+      "isbn": [
+        "164",
+        "165",
+        "166"
+      ],
+      "rent": 9,
+      "gener": "Gothic Fiction",
+      "cover": "img path"
+    },
+    {
+      "id": "23",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isAvailable": true,
+      "isbn": [
+        "167",
+        "168",
+        "169"
+      ],
+      "rent": 12,
+      "gener": "Dystopian Fiction",
+      "cover": "img path"
+    },
+    {
+      "id": "24",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isAvailable": false,
+      "isbn": [
+        "170",
+        "171",
+        "172"
+      ],
+      "rent": 11,
+      "gener": "Science Fiction",
+      "cover": "img path"
+    },
+    {
+      "id": "25",
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "isAvailable": true,
+      "isbn": [
+        "173",
+        "174",
+        "175"
+      ],
+      "rent": 8,
+      "gener": "Novella",
+      "cover": "img path"
+    },
+    {
+      "id": "26",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "isAvailable": true,
+      "isbn": [
+        "176",
+        "177",
+        "178"
+      ],
+      "rent": 17,
+      "gener": "Magical Realism",
+      "cover": "img path"
+    }
+  ],
+  "members": [
+    {
+      "id": "2",
+      "name": "Priya Singh",
+      "email": "priya.s@gmail.com",
+      "phone": "9876543210",
+      "address": "Mumbai, Maharashtra-400001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Rajesh Kumar",
+      "email": "rajeshk@gmail.com",
+      "phone": "9988776655",
+      "address": "Delhi, Delhi-110001",
+      "type": "faculty",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Anjali Mehta",
+      "email": "anjalim@gmail.com",
+      "phone": "9123456789",
+      "address": "Ahmedabad, Gujarat-380001",
+      "type": "student",
+      "isActive": false
+    },
+    {
+      "id": "5",
+      "name": "Sanjay Patel",
+      "email": "sanjay.p@yahoo.com",
+      "phone": "9012345678",
+      "address": "Pune, Maharashtra-411001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "name": "Nisha Verma",
+      "email": "nisha.v@gmail.com",
+      "phone": "9898989898",
+      "address": "Jaipur, Rajasthan-302001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "name": "Amit Shah",
+      "email": "amit.s@gmail.com",
+      "phone": "9765432109",
+      "address": "Bangalore, Karnataka-560001",
+      "type": "faculty",
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "name": "Kavita Rao",
+      "email": "kavita.r@gmail.com",
+      "phone": "9555555555",
+      "address": "Hyderabad, Telangana-500001",
+      "type": "student",
+      "isActive": false
+    },
+    {
+      "id": "9",
+      "name": "Rahul Gupta",
+      "email": "rahul.g@gmail.com",
+      "phone": "9444444444",
+      "address": "Chennai, Tamil Nadu-600001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "10",
+      "name": "Sunita Sharma",
+      "email": "sunita.s@gmail.com",
+      "phone": "9333333333",
+      "address": "Kolkata, West Bengal-700001",
+      "type": "faculty",
+      "isActive": true
+    },
+    {
+      "id": "11",
+      "name": "Vikram Singh",
+      "email": "vikram.s@gmail.com",
+      "phone": "9222222222",
+      "address": "Lucknow, Uttar Pradesh-226001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "12",
+      "name": "Pooja Gupta",
+      "email": "pooja.g@gmail.com",
+      "phone": "9111111111",
+      "address": "Bhopal, Madhya Pradesh-462001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "13",
+      "name": "Manish Kumar",
+      "email": "manish.k@gmail.com",
+      "phone": "9000000000",
+      "address": "Patna, Bihar-800001",
+      "type": "student",
+      "isActive": false
+    },
+    {
+      "id": "14",
+      "name": "Swati Deshmukh",
+      "email": "swati.d@gmail.com",
+      "phone": "9870123456",
+      "address": "Nagpur, Maharashtra-440001",
+      "type": "faculty",
+      "isActive": true
+    },
+    {
+      "id": "15",
+      "name": "Deepak Joshi",
+      "email": "deepak.j@gmail.com",
+      "phone": "9823456789",
+      "address": "Chandigarh, Chandigarh-160001",
+      "type": "student",
+      "isActive": true
+    },
+    {
+      "id": "16",
+      "name": "Shruti Rao",
+      "email": "shruti.r@gmail.com",
+      "phone": "9934567890",
+      "address": "Coimbatore, Tamil Nadu-641001",
+      "type": "student",
+      "isActive": true
+    }
+  ],
+  "fines": [],
+  "issue": [],
+  "reservation": []
+}

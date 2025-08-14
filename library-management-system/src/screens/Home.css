@@ -1,0 +1,9 @@
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ol-list {
+  width: 900px;
+}

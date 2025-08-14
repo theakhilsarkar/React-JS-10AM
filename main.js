@@ -75,17 +75,20 @@
 // const [count,setCount] = useState(0);
 
 // useContext - react
-// state 
+// state
 
+// GET, POST PUT,PATCH, DELTE
 
+// REACT - JSON SERVER -
 
+// PROJECTS
 
+// GROUPS
 
+// Library Management System - LMS
 
+// books
+// Atomic Habits
 
-
-
-
-
-
-
+// server = space + internet
+// local server/ temp server
