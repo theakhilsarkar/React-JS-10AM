@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./screens/Home/Home";
 
+
 function App() {
   return (
     <>
@@ -13,5 +14,6 @@ function App() {
 }
 
 export default App;
+
 
 // plann -> execution

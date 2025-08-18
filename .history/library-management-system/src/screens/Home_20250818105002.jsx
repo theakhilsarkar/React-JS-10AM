@@ -51,3 +51,32 @@ export default function Home() {
     </div>
   );
 }
+
+// github
+
+// git
+
+// 3
+
+// commit ready
+// push
+// pull
+
+// Home - List
+// Home - Box
+// Home - Button
+
+// src-f
+
+// components
+//    Book
+//      Book.jsx
+//      Book.jsx
+
+// screens-f
+//    Home-f
+//      Home.jsx
+//      Home.css
+//    Menu-f
+//      Menu.jsx
+//      Menu.css
