@@ -1,20 +1,6 @@
 {
   "books": [
     {
-      "id": "12",
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "isAvailable": true,
-      "isbn": [
-        "134",
-        "135",
-        "136"
-      ],
-      "rent": 8,
-      "gener": "Gothic Fiction",
-      "cover": "img path"
-    },
-    {
       "id": "14",
       "title": "The Da Vinci Code",
       "author": "Dan Brown",

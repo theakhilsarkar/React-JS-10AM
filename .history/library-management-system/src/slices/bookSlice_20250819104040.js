@@ -1,0 +1,20 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+// api calling
+
+// neutral
+// pending
+// fullfilled
+// error/rejected
+
+
+const initialState = {
+    books: [],
+    status: "neutral",
+    error: null,
+  },
+
+const bookSlice = createSlice({
+  name: "book",
+  initialState: 
+});
