@@ -15,20 +15,6 @@
       "cover": "img path"
     },
     {
-      "id": "15",
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "author": "J.K. Rowling",
-      "isAvailable": true,
-      "isbn": [
-        "143",
-        "144",
-        "145"
-      ],
-      "rent": 12,
-      "gener": "Fantasy",
-      "cover": "img path"
-    },
-    {
       "id": "16",
       "title": "The Hunger Games",
       "author": "Suzanne Collins",
@@ -127,18 +113,34 @@
       "cover": "img path"
     },
     {
-      "id": "26",
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
+      "title": "Hu Krushn Chhu Part 1",
+      "author": "Deepak Trivedi",
+      "gener": "Psychology",
+      "rent": 100,
+      "isbn": [],
+      "cover": "img path",
       "isAvailable": true,
-      "isbn": [
-        "176",
-        "177",
-        "178"
-      ],
-      "rent": 17,
-      "gener": "Magical Realism",
-      "cover": "img path"
+      "id": "b1Uzva5"
+    },
+    {
+      "title": "Hu Krushn Chhu Part 1",
+      "author": "Deepak Trivedi",
+      "gener": "Psychology",
+      "rent": 100,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "CRMDizC"
+    },
+    {
+      "title": "Hu Krushn Chhu Part 1",
+      "author": "Deepak Trivedi",
+      "gener": "Psychology",
+      "rent": 100,
+      "isbn": [],
+      "cover": "img path",
+      "isAvailable": true,
+      "id": "QAaH7Ab"
     }
   ],
   "members": [
