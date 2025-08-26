@@ -36,8 +36,4 @@ const analytics = getAnalytics(app);
 // chat
 // cloud firestore
 
-// authentication, auth0
-// 
-
-// cloud firestore - text - real time/stream
-
+// authen
