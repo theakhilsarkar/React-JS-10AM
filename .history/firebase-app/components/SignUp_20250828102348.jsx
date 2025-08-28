@@ -1,0 +1,14 @@
+import React from "react";
+
+export default function SignUp() {
+
+    const 
+
+  return (
+    <div>
+      <input type="email" />
+      <input type="password" />
+      <button>Sign Up</button>
+    </div>
+  );
+}
