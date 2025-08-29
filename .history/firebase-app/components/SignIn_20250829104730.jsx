@@ -14,7 +14,6 @@ const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
 export default function SignIn() {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -28,19 +27,18 @@ export default function SignIn() {
     // signInWithPopup(auth, provider).then((result) => {
     //   console.log(result.user.displayName);
     // });
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        console.log(result.user.displayName);
-      })
-      .catch((err) => console.log("sign in failed " + err));
+    // signInWithRedirect(auth, provider)
+    //   .then((result) => {
+    //     console.log(result.user.displayName);
+    //   })
+    //   .catch((err) => console.log("sign in failed " + err));
   };
-
 
   return (
     <div>
       <h2>Sign In</h2>
 
-      <h3>{auth.currentUser.email}</h3>
+      {/* <h3>{auth.currentUser.email}</h3> */}
 
       <input type="email" onChange={(e) => setEmail(e.target.value)} />
       <input type="password" onChange={(e) => setPassword(e.target.value)} />

@@ -16,5 +16,3 @@ export const app = initializeApp(firebaseConfig);
 // Presentation Date - 08/09/2025, Monday
 
 // 1. project description all features
-// 2. presentation - role wise work,
-// 3. live demonstration of website

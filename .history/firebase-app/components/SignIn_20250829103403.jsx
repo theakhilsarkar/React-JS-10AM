@@ -4,8 +4,6 @@ import {
   signInWithEmailAndPassword,
   GoogleAuthProvider,
   signInWithPopup,
-  signInWithRedirect,
-  signOut,
 } from "firebase/auth";
 
 import { app } from "../firebase";
@@ -14,7 +12,6 @@ const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
 export default function SignIn() {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -25,23 +22,14 @@ export default function SignIn() {
   };
 
   const handleSignInWithGoogle = () => {
-    // signInWithPopup(auth, provider).then((result) => {
-    //   console.log(result.user.displayName);
-    // });
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        console.log(result.user.displayName);
-      })
-      .catch((err) => console.log("sign in failed " + err));
+    signInWithPopup(auth, provider).then((result) => {
+      console.log(result.user.displayName);
+    });
   };
-
 
   return (
     <div>
       <h2>Sign In</h2>
-
-      <h3>{auth.currentUser.email}</h3>
-
       <input type="email" onChange={(e) => setEmail(e.target.value)} />
       <input type="password" onChange={(e) => setPassword(e.target.value)} />
       <button onClick={handleSignIn}>Sign In</button>
@@ -49,15 +37,7 @@ export default function SignIn() {
       <br />
       <br />
       <button onClick={handleSignInWithGoogle}>Sign in With Google</button>
-      <button
-        onClick={() =>
-          signOut(auth)
-            .then((result) => alert("user logged out !!"))
-            .catch((err) => alert("logout failed ", err))
-        }
-      >
-        Sign Out
-      </button>
+      <button>Sign Out</button>
 
       {/* <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMEilyxHhukAf0ad799cyK9qHTSVET6jla7w&s"

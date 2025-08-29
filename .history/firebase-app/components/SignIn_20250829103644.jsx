@@ -4,7 +4,6 @@ import {
   signInWithEmailAndPassword,
   GoogleAuthProvider,
   signInWithPopup,
-  signInWithRedirect,
   signOut,
 } from "firebase/auth";
 
@@ -14,7 +13,6 @@ const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
 export default function SignIn() {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -25,23 +23,14 @@ export default function SignIn() {
   };
 
   const handleSignInWithGoogle = () => {
-    // signInWithPopup(auth, provider).then((result) => {
-    //   console.log(result.user.displayName);
-    // });
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        console.log(result.user.displayName);
-      })
-      .catch((err) => console.log("sign in failed " + err));
+    signInWithPopup(auth, provider).then((result) => {
+      console.log(result.user.displayName);
+    });
   };
-
 
   return (
     <div>
       <h2>Sign In</h2>
-
-      <h3>{auth.currentUser.email}</h3>
-
       <input type="email" onChange={(e) => setEmail(e.target.value)} />
       <input type="password" onChange={(e) => setPassword(e.target.value)} />
       <button onClick={handleSignIn}>Sign In</button>

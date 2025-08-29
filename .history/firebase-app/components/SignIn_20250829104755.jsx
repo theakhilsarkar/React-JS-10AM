@@ -14,7 +14,6 @@ const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 
 export default function SignIn() {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -34,7 +33,6 @@ export default function SignIn() {
       })
       .catch((err) => console.log("sign in failed " + err));
   };
-
 
   return (
     <div>

@@ -17,4 +17,4 @@ export const app = initializeApp(firebaseConfig);
 
 // 1. project description all features
 // 2. presentation - role wise work,
-// 3. live demonstration of website
+// 3. live demonstration of app
