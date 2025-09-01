@@ -13,7 +13,7 @@ function App() {
     <>
       {/* <SignUp />
       <SignIn /> */}
-      <AddData />
+      <AddData/
     </>
   );
 }

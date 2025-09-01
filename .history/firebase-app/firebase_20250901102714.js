@@ -13,7 +13,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-export const store = getFirestore(app);
+export const store = 
 
 // Presentation Date - 08/09/2025, Monday
 

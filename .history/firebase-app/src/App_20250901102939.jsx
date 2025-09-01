@@ -4,7 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import SignUp from "../components/SignUp";
 import SignIn from "../components/SignIn";
-import AddData from "../components/AddData";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +12,6 @@ function App() {
     <>
       {/* <SignUp />
       <SignIn /> */}
-      <AddData />
     </>
   );
 }
