@@ -1,0 +1,24 @@
+.chat-view {
+  height: 100%;
+  width: 35%;
+  background-color: white;
+}
+
+.chat-box {
+  height: 93%;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.input-box {
+  height: 7%;
+  width: 100%;
+  display: flex;
+}
+
+.input-box input {
+  width: 90%;
+}
+
+.input-box button {
+}

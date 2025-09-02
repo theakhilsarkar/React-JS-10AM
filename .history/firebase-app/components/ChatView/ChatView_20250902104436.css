@@ -1,0 +1,44 @@
+.chat-view {
+  height: 100%;
+  width: 35%;
+  background-color: white;
+}
+
+.chat-box {
+  height: 90%;
+  width: 100%;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-box {
+  height: auto;
+  display: flex;
+  justify-content: end;
+  margin: 20px 10px;
+  /* margin-top: 10px; */
+}
+
+.msg-box span {
+  background-color: darkseagreen;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input-box {
+  height: 7%;
+  width: 100%;
+  display: flex;
+}
+
+.input-box input {
+  height: 100%;
+  width: 90%;
+}
+
+.input-box button {
+  height: 100%;
+  width: 10%;
+}
