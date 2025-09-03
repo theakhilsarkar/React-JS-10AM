@@ -1,13 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { store } from "../../firebase";
-import {
-  collection,
-  addDoc,
-  getDocs,
-  Timestamp,
-  doc,
-  deleteDoc,
-} from "firebase/firestore";
+import { collection, addDoc, getDocs, Timestamp, doc,deleteDoc } from "firebase/firestore";
 import "./ChatView.css";
 
 export default function ChatView() {
@@ -49,20 +42,9 @@ export default function ChatView() {
   const handleGetMessages = async () => {
     let msgList = [];
     const querySnapshot = await getDocs(collection(store, "chats"));
-    msgList = querySnapshot.docs.map((msg) => {
-      let data = msg.data(); // object
-      data = { ...data, docId: msg.id };
-      return data;
-    });
+    msgList = querySnapshot.docs.map((msg) => msg.data());
     msgList.sort((a, b) => a.time - b.time);
     setMessages(msgList);
-  };
-
-  const handleDeleteMessage = (id) => {
-    deleteDoc(doc(store, "chats", id)).then(() => {
-      handleGetMessages(); //
-      alert("message deleted !");
-    });
   };
 
   useEffect(() => {
@@ -76,13 +58,6 @@ export default function ChatView() {
           {messages.map((msg, index) => (
             <div
               key={index}
-              onDoubleClick={() => {
-                if (msg.sender === "user-1") {
-                  handleDeleteMessage(msg.docId);
-                } else {
-                  alert("you cant delete other's message !!");
-                }
-              }}
               className={`msg-box ${
                 msg.sender === "user-1" ? "right" : "left"
               }`}

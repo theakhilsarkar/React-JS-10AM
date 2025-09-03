@@ -39,7 +39,7 @@
 }
 
 .right span {
-  background-color: rgb(231, 215, 255);
+  background-color: rgb(161, 143, 188);
 }
 
 .left span {
@@ -53,10 +53,6 @@
   padding: 10px;
   border-radius: 10px;
   /* background-color: darkseagreen; */
-}
-
-.msg-box span:hover {
-  cursor: pointer;
 }
 .input-box {
   height: 7%;

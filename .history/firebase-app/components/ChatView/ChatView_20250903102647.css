@@ -7,9 +7,8 @@
 
 .chat-view {
   height: 100%;
-  width: 30%;
+  width: 35%;
   background-color: white;
-  margin-right: 10px;
 }
 
 .chat-box {
@@ -26,24 +25,8 @@
   /* width: 100%; */
   /* margin: 20px 10px; */
   display: flex;
-
-  /* background-color: aquamarine; */
-}
-
-.right {
   justify-content: end;
-}
-
-.left {
-  justify-content: start;
-}
-
-.right span {
-  background-color: rgb(231, 215, 255);
-}
-
-.left span {
-  background-color: rgb(218, 255, 68);
+  background-color: aquamarine;
 }
 
 .msg-box span {
@@ -52,11 +35,7 @@
   width: max-content;
   padding: 10px;
   border-radius: 10px;
-  /* background-color: darkseagreen; */
-}
-
-.msg-box span:hover {
-  cursor: pointer;
+  background-color: antiquewhite;
 }
 .input-box {
   height: 7%;

@@ -26,25 +26,12 @@
   /* width: 100%; */
   /* margin: 20px 10px; */
   display: flex;
-
+  
   /* background-color: aquamarine; */
 }
 
-.right {
-  justify-content: end;
-}
 
-.left {
-  justify-content: start;
-}
 
-.right span {
-  background-color: rgb(231, 215, 255);
-}
-
-.left span {
-  background-color: rgb(218, 255, 68);
-}
 
 .msg-box span {
   margin: 10px 15px;
@@ -52,11 +39,7 @@
   width: max-content;
   padding: 10px;
   border-radius: 10px;
-  /* background-color: darkseagreen; */
-}
-
-.msg-box span:hover {
-  cursor: pointer;
+  background-color: darkseagreen;
 }
 .input-box {
   height: 7%;

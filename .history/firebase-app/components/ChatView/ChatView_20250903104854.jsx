@@ -76,13 +76,7 @@ export default function ChatView() {
           {messages.map((msg, index) => (
             <div
               key={index}
-              onDoubleClick={() => {
-                if (msg.sender === "user-1") {
-                  handleDeleteMessage(msg.docId);
-                } else {
-                  alert("you cant delete other's message !!");
-                }
-              }}
+              onDoubleClick={() => handleDeleteMessage(msg.docId)}
               className={`msg-box ${
                 msg.sender === "user-1" ? "right" : "left"
               }`}

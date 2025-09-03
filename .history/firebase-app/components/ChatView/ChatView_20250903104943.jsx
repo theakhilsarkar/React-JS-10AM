@@ -77,11 +77,11 @@ export default function ChatView() {
             <div
               key={index}
               onDoubleClick={() => {
-                if (msg.sender === "user-1") {
-                  handleDeleteMessage(msg.docId);
-                } else {
-                  alert("you cant delete other's message !!");
+                if(msg.)
+                {
+
                 }
+
               }}
               className={`msg-box ${
                 msg.sender === "user-1" ? "right" : "left"

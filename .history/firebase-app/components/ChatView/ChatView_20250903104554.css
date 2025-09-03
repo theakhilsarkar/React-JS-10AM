@@ -55,8 +55,8 @@
   /* background-color: darkseagreen; */
 }
 
-.msg-box span:hover {
-  cursor: pointer;
+.msg-box span:hover{
+  cursor: ;
 }
 .input-box {
   height: 7%;

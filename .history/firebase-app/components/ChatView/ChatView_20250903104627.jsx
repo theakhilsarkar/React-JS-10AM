@@ -49,11 +49,7 @@ export default function ChatView() {
   const handleGetMessages = async () => {
     let msgList = [];
     const querySnapshot = await getDocs(collection(store, "chats"));
-    msgList = querySnapshot.docs.map((msg) => {
-      let data = msg.data(); // object
-      data = { ...data, docId: msg.id };
-      return data;
-    });
+    msgList = querySnapshot.docs.map((msg) => msg.data());
     msgList.sort((a, b) => a.time - b.time);
     setMessages(msgList);
   };
@@ -76,13 +72,9 @@ export default function ChatView() {
           {messages.map((msg, index) => (
             <div
               key={index}
-              onDoubleClick={() => {
-                if (msg.sender === "user-1") {
-                  handleDeleteMessage(msg.docId);
-                } else {
-                  alert("you cant delete other's message !!");
-                }
-              }}
+
+              onDoubleClick={}
+
               className={`msg-box ${
                 msg.sender === "user-1" ? "right" : "left"
               }`}
